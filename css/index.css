@@ -1,0 +1,92 @@
+.form1 input{
+    border-radius: 9px;
+}
+.form1 .btn-primary{
+    border-radius: 20px;
+}
+#tienLuong{
+    background-color: rgba(0, 128, 0, 0.219);
+    width: 90%;
+    height: 50px;
+    padding-left: 15px;
+    
+}
+#tienLuong i{
+    padding-top: 15px;
+    color: orange;
+    font-size: 20px;
+}
+#tienLuong span{
+    padding-top: 15px;
+}
+
+.form2 input{
+    border-radius: 9px;
+}
+.form2 .btn-primary{
+    border-radius: 20px;
+}
+#trungBinh{
+    background-color: rgba(0, 128, 0, 0.219);
+    width: 90%;
+    height: 50px;
+    padding-left: 15px;
+}
+#trungBinh i{
+    padding-top: 15px;
+    color: orange;
+    font-size: 20px;
+}
+#trungBinh span{
+    padding-top: 15px;
+}
+.form2 .col-4{
+    margin-top: 20px;
+}
+.form3 input{
+    border-radius: 9px;
+}
+.form3 .btn-primary{
+    border-radius: 20px;
+}
+#DivTinhTien{
+    background-color: rgba(0, 128, 0, 0.219);
+    width: 90%;
+    height: 50px;
+    padding-left: 15px;
+}
+#DivTinhTien i{
+    padding-top: 15px;
+    color: orange;
+    font-size: 20px;
+}
+#DivTinhTien span{
+    padding-top: 15px;
+}
+.form4 input{
+    border-radius: 9px;
+}
+.form4 .btn-primary{
+    border-radius: 20px;
+}
+#tinh{
+    background-color: rgba(0, 128, 0, 0.219);
+    width: 90%;
+    height: 50px;
+    padding-left: 15px;
+    
+}
+#tinh i{
+    padding-top: 15px;
+    color: orange;
+    font-size: 20px;
+}
+#tinh span{
+    padding-top: 15px;
+}
+.form5 input{
+    border-radius: 9px;
+}
+.form5 .btn-primary{
+    border-radius: 20px;
+}

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>ExJS2_3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; color :brown; background-color:rgba(255, 105, 180, 0.411);" class="pt-3 pb-3">Bài Tập
+        JS buổi 2_3</h1>
+    <br>
+    <h3 class="ml-2">Bài Tập 1</h3>
+    <br>
+    <form class="container ml-2 form1">
+        <div class="row ">
+            <div class="col-4">
+                <input type="number" class="form-control" placeholder="Nhập lương một ngày" id="tienLuongMotNgay">
+            </div>
+            <div class="col-4">
+                <input type="number" class="form-control" placeholder="Số ngày làm" id="soNgayLam">
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary mt-4 ml-1 pt-2 pl-4 pr-4 pb-2" id="tinhLuong">Tính Lương</button>
+        <div class="text-left mt-4" id="tienLuong">
+            <i class="fa-solid fa-hand-point-right"></i>
+            <span id="tinhTienLuong"></span>
+        </div>
+    </form>
+<br>
+<br>
+<h3 class="ml-2 mb-3">Bài Tập 2</h3>
+<br>
+<form class="container ml-2 form2">
+    <div class="row ">
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập số thứ 1" id="number1">
+        </div>
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập số thứ 2" id="number2">
+        </div>
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập số thứ 3" id="number3">
+        </div>
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập số thứ 4" id="number4">
+        </div>
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập số thứ 5" id="number5">
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary mt-4 ml-1 pt-2 pl-4 pr-4 pb-2" id="tinhTrungBinh">Tính Trung Bình</button>
+    <div class="text-left mt-4" id="trungBinh">
+        <i class="fa-solid fa-hand-point-right"></i>
+        <span id="tinhTrungBinh5So"></span>
+    </div>
+</form>
+
+<br>
+<br>
+<h3 class="ml-2 mb-3">Bài Tập 3</h3>
+<br>
+<form class="container ml-2 form3" action="">
+    <div class="row ">
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập số tiền USD" id="soTienUsd">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary mt-4 ml-1 pt-2 pl-4 pr-4 pb-2" id="tienquyDoi">Quy đổi tiền</button>
+    <div class="text-left mt-4" id="DivTinhTien">
+        <i class="fa-solid fa-hand-point-right"></i>
+        <span id="tinhTienQuyDoi"></span>
+    </div>
+</form>
+<br>
+
+
+<br>
+<h3 class="ml-2 mb-3">Bài Tập 4</h3>
+<br>
+<form class="container ml-2 form4">
+    <div class="row ">
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập chiều dài" id="chieuDai">
+        </div>
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập chiều rộng" id="chieuRong">
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary mt-4 ml-1 pt-2 pl-5 pr-5 pb-2" id="tinhKetQua">Tính</button>
+    <div class="text-left mt-4" id="tinh">
+        <i class="fa-solid fa-hand-point-right"></i>
+        <span id="dienTich"></span>
+        <span id = "chuVi"></span>
+    </div>
+</form>
+
+<br>
+<h3 class="ml-2 mb-3">Bài Tập 5</h3>
+<br>
+<form class="container ml-2 form5">
+    <div class="row ">
+        <div class="col-4">
+            <input type="number" class="form-control" placeholder="Nhập số có 2 chữ số" id="number">
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary mt-4 ml-1 pt-2 pl-5 pr-5 pb-2" id="tinhTong">Tính tổng</button>
+    <div class="text-left mt-4" id="tinh">
+        <i class="fa-solid fa-hand-point-right"></i>
+        <span id="ketQua"></span>
+    </div>
+</form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
